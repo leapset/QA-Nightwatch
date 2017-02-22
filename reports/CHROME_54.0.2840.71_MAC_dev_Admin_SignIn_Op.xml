@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="dev_Admin_SignIn_Op"
+    errors="0" failures="0" hostname="" id="" package="dev_Admin_SignIn_Op" skipped="0"
+    tests="1" time="19.91" timestamp="Tue, 01 Nov 2016 16:29:52 GMT">
+  
+    <testcase name="dev-AdminSignInOp" time="19.91" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

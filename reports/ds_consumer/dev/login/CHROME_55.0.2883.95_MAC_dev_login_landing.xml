@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="dev_login_landing"
+    errors="0" failures="1" hostname="" id="" package="login" skipped="0"
+    tests="1" time="10.55" timestamp="Wed, 28 Dec 2016 20:45:42 GMT">
+  
+    <testcase name="dev-consumer" time="10.55" assertions="2">
+
+      <failure message="Timed out while waiting for element &lt;img[src=&#39;/images/cake-logo.png&#39;]&gt; to be present for 5000 milliseconds.">    at Object.dev-consumer (/Users/nick/Documents/Project/tests/ds_consumer/dev/login/dev_login_landing.js:20:8)
+    at Module.call (/Users/nick/Documents/Project/nightwatch/lib/runner/module.js:62:34)
+    at /Users/nick/Documents/Project/nightwatch/lib/runner/testcase.js:70:29
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

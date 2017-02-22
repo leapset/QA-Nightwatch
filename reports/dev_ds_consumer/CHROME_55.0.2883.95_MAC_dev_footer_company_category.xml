@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="dev_footer_company_category"
+    errors="0" failures="0" hostname="" id="" package="dev_ds_consumer" skipped="0"
+    tests="1" time="30.69" timestamp="Thu, 26 Jan 2017 22:51:54 GMT">
+  
+    <testcase name="dev-footer-company-category" time="30.69" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="dev_Admin_Menu_Op"
+    errors="0" failures="1" hostname="" id="" package="dev" skipped="0"
+    tests="1" time="19.31" timestamp="Wed, 28 Dec 2016 16:59:37 GMT">
+  
+    <testcase name="dev-AdminSignInOp" time="19.31" assertions="1">  <failure message="Timed out while waiting for element &lt;//*[@id=&#39;app&#39;]/div/div/div/div[2]/div[2]/div/div[1]/h1&gt; to be present for 5000 milliseconds.">    at Object.dev-AdminSignInOp (/Users/nick/Documents/Project/tests/cake_admin/dev/dev_Admin_Menu_Op.js:51:8)
+    at Module.call (/Users/nick/Documents/Project/nightwatch/lib/runner/module.js:62:34)
+    at /Users/nick/Documents/Project/nightwatch/lib/runner/testcase.js:70:29
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

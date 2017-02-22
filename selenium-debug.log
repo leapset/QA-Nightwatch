@@ -1,0 +1,121 @@
+14:27:15.242 INFO - Selenium build info: version: '3.0.1', revision: '1969d75'
+14:27:15.243 INFO - Launching a standalone Selenium Server
+2017-02-15 14:27:15.260:INFO::main: Logging initialized @233ms
+14:27:15.314 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+14:27:15.314 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+14:27:15.314 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+14:27:15.314 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+Unable to create new instances on this machine.
+14:27:15.314 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+14:27:15.314 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+2017-02-15 14:27:15.348:INFO:osjs.Server:main: jetty-9.2.15.v20160210
+2017-02-15 14:27:15.368:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@6cc4c815{/,null,AVAILABLE}
+2017-02-15 14:27:15.399:INFO:osjs.ServerConnector:main: Started ServerConnector@7823a2f9{HTTP/1.1}{0.0.0.0:4445}
+2017-02-15 14:27:15.399:INFO:osjs.Server:main: Started @372ms
+14:27:15.400 INFO - Selenium Server is up and running
+14:27:15.593 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+14:27:15.623 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Stag Admin / Stag Add Item, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+14:27:15.635 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Stag Admin / Stag Add Item, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6) on port 31383
+Only local connections are allowed.
+14:27:16.070 INFO - Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+14:27:16.829 INFO - Detected dialect: OSS
+14:27:16.845 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Stag Admin / Stag Add Item, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+14:27:16.859 INFO - Executing: [get: http://ds-consumer-staging.cake.net/])
+14:27:21.062 INFO - Done: [get: http://ds-consumer-staging.cake.net/]
+14:27:21.069 INFO - Executing: [find elements: By.cssSelector: input[class='search-query']])
+14:27:21.098 INFO - Done: [find elements: By.cssSelector: input[class='search-query']]
+14:27:21.102 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: input[class='search-query']]])
+14:27:21.119 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: input[class='search-query']]]
+14:27:21.126 INFO - Executing: [find element: By.xpath: //a[text()='LOGIN']])
+14:27:21.142 INFO - Done: [find element: By.xpath: //a[text()='LOGIN']]
+14:27:21.145 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> xpath: //a[text()='LOGIN']]])
+14:27:21.413 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> xpath: //a[text()='LOGIN']]]
+14:27:21.417 INFO - Executing: [find element: By.cssSelector: input[class='Login-Email form-input-transparent']])
+14:27:21.432 INFO - Done: [find element: By.cssSelector: input[class='Login-Email form-input-transparent']]
+14:27:21.437 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: input[class='Login-Email form-input-transparent']], [t, e, s, t, 3, @, a, u, t, o, ., c, o, m]])
+14:27:21.518 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: input[class='Login-Email form-input-transparent']], [t, e, s, t, 3, @, a, u, t, o, ., c, o, m]]
+14:27:21.521 INFO - Executing: [find element: By.cssSelector: input[class='Login-Password form-input-transparent']])
+14:27:21.549 INFO - Done: [find element: By.cssSelector: input[class='Login-Password form-input-transparent']]
+14:27:21.552 INFO - Executing: [send keys: 3 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: input[class='Login-Password form-input-transparent']], [t, e, s, t, 1, 2, 3, 4]])
+14:27:21.607 INFO - Done: [send keys: 3 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: input[class='Login-Password form-input-transparent']], [t, e, s, t, 1, 2, 3, 4]]
+14:27:21.612 INFO - Executing: [find element: By.cssSelector: button[class='Login-Submit btn-cake']])
+14:27:21.632 INFO - Done: [find element: By.cssSelector: button[class='Login-Submit btn-cake']]
+14:27:21.635 INFO - Executing: [click: 4 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: button[class='Login-Submit btn-cake']]])
+14:27:21.668 INFO - Done: [click: 4 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: button[class='Login-Submit btn-cake']]]
+14:27:24.678 INFO - Executing: [get current url])
+14:27:36.806 INFO - Done: [get current url]
+14:27:39.812 INFO - Executing: [find element: By.cssSelector: button[class='Button Button--addItem']])
+14:27:39.828 INFO - Done: [find element: By.cssSelector: button[class='Button Button--addItem']]
+14:27:39.832 INFO - Executing: [click: 5 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: button[class='Button Button--addItem']]])
+14:27:40.474 INFO - Done: [click: 5 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: button[class='Button Button--addItem']]]
+14:27:40.482 INFO - Executing: [find elements: By.cssSelector: input[class='ItemDetails-Input--itemName']])
+14:27:40.532 INFO - Done: [find elements: By.cssSelector: input[class='ItemDetails-Input--itemName']]
+14:27:40.536 INFO - Executing: [is displayed: 6 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: input[class='ItemDetails-Input--itemName']]])
+14:27:40.560 INFO - Done: [is displayed: 6 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: input[class='ItemDetails-Input--itemName']]]
+14:27:41.568 INFO - Executing: [find element: By.cssSelector: input[class='ItemDetails-Input--itemName']])
+14:27:41.582 INFO - Done: [find element: By.cssSelector: input[class='ItemDetails-Input--itemName']]
+14:27:41.585 INFO - Executing: [send keys: 6 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: input[class='ItemDetails-Input--itemName']], [D, e, l, e, t, e,  , M, e]])
+14:27:41.643 INFO - Done: [send keys: 6 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: input[class='ItemDetails-Input--itemName']], [D, e, l, e, t, e,  , M, e]]
+14:27:42.654 INFO - Executing: [find element: By.cssSelector: input[class='ItemDetails-PriceInput--price']])
+14:27:42.668 INFO - Done: [find element: By.cssSelector: input[class='ItemDetails-PriceInput--price']]
+14:27:42.671 INFO - Executing: [send keys: 7 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: input[class='ItemDetails-PriceInput--price']], [1]])
+14:27:42.756 INFO - Done: [send keys: 7 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: input[class='ItemDetails-PriceInput--price']], [1]]
+14:27:42.759 INFO - Executing: [find element: By.cssSelector: textarea[class='ItemDetails-TextArea--description']])
+14:27:42.775 INFO - Done: [find element: By.cssSelector: textarea[class='ItemDetails-TextArea--description']]
+14:27:42.780 INFO - Executing: [send keys: 8 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: textarea[class='ItemDetails-TextArea--description']], [T, h, i, s,  , i, s,  , 1, 5,  , c, h, a, r]])
+14:27:42.898 INFO - Done: [send keys: 8 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: textarea[class='ItemDetails-TextArea--description']], [T, h, i, s,  , i, s,  , 1, 5,  , c, h, a, r]]
+14:27:42.901 INFO - Executing: [find element: By.cssSelector: div[class='Chips-Field']])
+14:27:42.915 INFO - Done: [find element: By.cssSelector: div[class='Chips-Field']]
+14:27:42.917 INFO - Executing: [click: 9 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: div[class='Chips-Field']]])
+14:27:43.014 INFO - Done: [click: 9 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: div[class='Chips-Field']]]
+14:27:43.017 INFO - Executing: [find element: By.cssSelector: button[class='Option-Button Option-Button--saladsAndSoups']])
+14:27:43.093 INFO - Done: [find element: By.cssSelector: button[class='Option-Button Option-Button--saladsAndSoups']]
+14:27:43.099 INFO - Executing: [click: 10 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: button[class='Option-Button Option-Button--saladsAndSoups']]])
+14:27:43.188 INFO - Done: [click: 10 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: button[class='Option-Button Option-Button--saladsAndSoups']]]
+14:27:43.191 INFO - Executing: [find element: By.cssSelector: input[class='Autocomplete-Input Autocomplete-Input--modifierGroup']])
+14:27:43.205 INFO - Done: [find element: By.cssSelector: input[class='Autocomplete-Input Autocomplete-Input--modifierGroup']]
+14:27:43.208 INFO - Executing: [click: 11 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: input[class='Autocomplete-Input Autocomplete-Input--modifierGroup']]])
+14:27:43.251 INFO - Done: [click: 11 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: input[class='Autocomplete-Input Autocomplete-Input--modifierGroup']]]
+14:27:43.256 INFO - Executing: [find element: By.cssSelector: button[class='Button Button--sizes']])
+14:27:43.271 INFO - Done: [find element: By.cssSelector: button[class='Button Button--sizes']]
+14:27:43.273 INFO - Executing: [click: 12 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: button[class='Button Button--sizes']]])
+14:27:43.302 INFO - Done: [click: 12 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: button[class='Button Button--sizes']]]
+14:27:43.305 INFO - Executing: [find element: By.cssSelector: button[class='Button Button--0']])
+14:27:43.385 INFO - Done: [find element: By.cssSelector: button[class='Button Button--0']]
+14:27:43.388 INFO - Executing: [click: 13 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: button[class='Button Button--0']]])
+14:27:43.427 INFO - Done: [click: 13 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: button[class='Button Button--0']]]
+14:27:43.430 INFO - Executing: [find element: By.cssSelector: button[class='Button Button--1']])
+14:27:43.444 INFO - Done: [find element: By.cssSelector: button[class='Button Button--1']]
+14:27:43.446 INFO - Executing: [click: 14 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: button[class='Button Button--1']]])
+14:27:43.490 INFO - Done: [click: 14 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: button[class='Button Button--1']]]
+14:27:43.494 INFO - Executing: [find element: By.cssSelector: button[class='Button Button--save']])
+14:27:43.568 INFO - Done: [find element: By.cssSelector: button[class='Button Button--save']]
+14:27:43.570 INFO - Executing: [click: 15 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: button[class='Button Button--save']]])
+14:27:43.733 INFO - Done: [click: 15 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: button[class='Button Button--save']]]
+14:27:43.736 INFO - Executing: [find elements: By.cssSelector: button[class='Button Button--deleteItem']])
+14:27:43.806 INFO - Done: [find elements: By.cssSelector: button[class='Button Button--deleteItem']]
+14:27:44.313 INFO - Executing: [find elements: By.cssSelector: button[class='Button Button--deleteItem']])
+14:27:44.319 INFO - Done: [find elements: By.cssSelector: button[class='Button Button--deleteItem']]
+14:27:44.827 INFO - Executing: [find elements: By.cssSelector: button[class='Button Button--deleteItem']])
+14:27:44.834 INFO - Done: [find elements: By.cssSelector: button[class='Button Button--deleteItem']]
+14:27:45.337 INFO - Executing: [find elements: By.cssSelector: button[class='Button Button--deleteItem']])
+14:27:46.611 INFO - Done: [find elements: By.cssSelector: button[class='Button Button--deleteItem']]
+14:27:46.614 INFO - Executing: [is displayed: 16 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: button[class='Button Button--deleteItem']]])
+14:27:46.662 INFO - Done: [is displayed: 16 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: button[class='Button Button--deleteItem']]]
+14:27:46.666 INFO - Executing: [find element: By.cssSelector: button[class='Button Button--deleteItem']])
+14:27:46.685 INFO - Done: [find element: By.cssSelector: button[class='Button Button--deleteItem']]
+14:27:46.687 INFO - Executing: [click: 16 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: button[class='Button Button--deleteItem']]])
+14:27:46.736 INFO - Done: [click: 16 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: button[class='Button Button--deleteItem']]]
+14:27:46.739 INFO - Executing: [find element: By.cssSelector: button[class='Button Button--yes']])
+14:27:46.757 INFO - Done: [find element: By.cssSelector: button[class='Button Button--yes']]
+14:27:46.759 INFO - Executing: [click: 17 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: button[class='Button Button--yes']]])
+14:27:46.799 INFO - Done: [click: 17 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: button[class='Button Button--yes']]]
+14:27:46.802 INFO - Executing: [find elements: By.cssSelector: button[class='Button Button--addItem']])
+14:27:47.090 INFO - Done: [find elements: By.cssSelector: button[class='Button Button--addItem']]
+14:27:47.109 INFO - Executing: [is displayed: 5 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: button[class='Button Button--addItem']]])
+14:27:47.124 INFO - Done: [is displayed: 5 [[ChromeDriver: chrome on MAC (b589f4a362e2a1ae1ebb4fdda47f723f)] -> css selector: button[class='Button Button--addItem']]]
+14:27:47.128 INFO - Executing: [delete session: 4cb7a498-bf2c-4980-8d5b-04bd3cca95f8])
+14:27:47.211 INFO - Done: [delete session: 4cb7a498-bf2c-4980-8d5b-04bd3cca95f8]

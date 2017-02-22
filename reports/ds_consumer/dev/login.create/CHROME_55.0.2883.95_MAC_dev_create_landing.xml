@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="dev_create_landing"
+    errors="0" failures="0" hostname="" id="" package="Login.Create" skipped="0"
+    tests="1" time="16.77" timestamp="Wed, 28 Dec 2016 22:38:01 GMT">
+  
+    <testcase name="dev-create-landing" time="16.77" assertions="2">
+
+    
+
+    
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;//span[text()=&#39;Passwords should use only letters, numbers, and these special characters: &#39;!#$%&amp;?&#39;&#39;]&quot; using: xpath
+    at command (/Users/nick/Documents/Project/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/nick/Documents/Project/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/nick/Documents/Project/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/nick/Documents/Project/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/nick/Documents/Project/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/nick/Documents/Project/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/nick/Documents/Project/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/nick/Documents/Project/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/nick/Documents/Project/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/nick/Documents/Project/nightwatch/lib/core/queue.js:73:8)
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>

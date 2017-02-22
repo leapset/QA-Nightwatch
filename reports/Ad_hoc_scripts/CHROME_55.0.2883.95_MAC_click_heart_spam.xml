@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="click_heart_spam"
+    errors="0" failures="0" hostname="" id="" package="Ad_hoc_scripts" skipped="0"
+    tests="1" time="225.4" timestamp="Wed, 01 Feb 2017 19:08:34 GMT">
+  
+    <testcase name="stag-restaurant-page-buttons" time="225.4" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="stag_footer_mobile_category"
+    errors="0" failures="0" hostname="" id="" package="stag_ds_consumer" skipped="0"
+    tests="1" time="11.68" timestamp="Wed, 01 Feb 2017 20:28:58 GMT">
+  
+    <testcase name="stag-footer-mobile-category" time="11.68" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="dev_footer_help_category"
+    errors="1" failures="0" hostname="" id="" package="dev_ds_consumer" skipped="0"
+    tests="1" time="0.008000" timestamp="Wed, 04 Jan 2017 23:10:16 GMT">
+  
+    <testcase name="dev-footer-help-category" time="0.008000" assertions="0">
+    </testcase>
+      <system-err>
+          Error while running [Dev Ds Consumer / Dev Footer Help Category / dev-footer-help-category]:
+
+  TypeError: Cannot read property &#39;urlEquals&#39; of undefined
+    at Object.dev-footer-help-category (/Users/nick/Documents/Project/tests/dev_ds_consumer/dev_footer_help_category.js:41:14)
+    at Module.call (/Users/nick/Documents/Project/nightwatch/lib/runner/module.js:62:34)
+    at /Users/nick/Documents/Project/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/nick/Documents/Project/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/nick/Documents/Project/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/nick/Documents/Project/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/nick/Documents/Project/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/nick/Documents/Project/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/nick/Documents/Project/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>

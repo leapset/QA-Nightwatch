@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="dev_field_restrictions"
+    errors="1" failures="1" hostname="" id="" package="Login.Create" skipped="0"
+    tests="1" time="14.17" timestamp="Wed, 28 Dec 2016 22:38:18 GMT">
+  
+    <testcase name="dev-field-restrictions" time="14.17" assertions="4">
+
+    
+
+    
+
+      <failure message="Testing if element &lt;//span[text()=&#39;Passwords should use only letters, numbers, and these special characters: &#39;!#$%&amp;?&#39;&#39;]&gt; contains text: &quot;Passwords should use only letters, numbers, and these special characters: &#39;!#$%&amp;?&#39;&quot;. Element could not be located.">    at Object.dev-field-restrictions (/Users/nick/Documents/Project/tests/ds_consumer/dev/Login.Create/dev_field_restrictions.js:41:15)
+    at Module.call (/Users/nick/Documents/Project/nightwatch/lib/runner/module.js:62:34)
+    at /Users/nick/Documents/Project/nightwatch/lib/runner/testcase.js:70:29
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+    
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;//span[text()=&#39;Passwords should use only letters, numbers, and these special characters: &#39;!#$%&amp;?&#39;&#39;]&quot; using: xpath
+    at command (/Users/nick/Documents/Project/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/nick/Documents/Project/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/nick/Documents/Project/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/nick/Documents/Project/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/nick/Documents/Project/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/nick/Documents/Project/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/nick/Documents/Project/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/nick/Documents/Project/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/nick/Documents/Project/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/nick/Documents/Project/nightwatch/lib/core/queue.js:73:8)
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>

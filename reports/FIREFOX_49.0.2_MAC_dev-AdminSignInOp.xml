@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="dev-AdminSignInOp"
+    errors="0" failures="1" hostname="" id="" package="dev-AdminSignInOp" skipped="0"
+    tests="1" time="21.00" timestamp="Mon, 31 Oct 2016 15:46:27 GMT">
+  
+    <testcase name="dev-AdminSignInOp" time="21.00" assertions="1">  <failure message="Timed out while waiting for element &lt;//*[@id=&#39;markup&#39;]/div/div[2]/div[1]/div/div/h1&gt; to be present for 1000 milliseconds.">    at Object.dev-AdminSignInOp (/Users/nick/Documents/Project/tests/dev-AdminSignInOp.js:24:8)
+    at Module.call (/Users/nick/Documents/Project/nightwatch/lib/runner/module.js:62:34)
+    at /Users/nick/Documents/Project/nightwatch/lib/runner/testcase.js:70:29
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

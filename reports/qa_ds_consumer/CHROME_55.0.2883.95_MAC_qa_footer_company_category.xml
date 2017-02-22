@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="qa_footer_company_category"
+    errors="0" failures="1" hostname="" id="" package="qa_ds_consumer" skipped="0"
+    tests="1" time="24.57" timestamp="Tue, 31 Jan 2017 22:21:07 GMT">
+  
+    <testcase name="qa-footer-company-category" time="24.57" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if the URL equals &quot;http://www.trycake.com/press&quot;.">    at Object.qa-footer-company-category (/Users/nick/Documents/Project/tests/qa_ds_consumer/qa_footer_company_category.js:31:15)
+    at Module.call (/Users/nick/Documents/Project/nightwatch/lib/runner/module.js:62:34)
+    at /Users/nick/Documents/Project/nightwatch/lib/runner/testcase.js:70:29
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
